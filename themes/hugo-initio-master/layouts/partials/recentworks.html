@@ -1,0 +1,53 @@
+<div class="row section recentworks topspace" id="publications">
+
+    <hr style="border : 1px solid rgba(160,160,160,0.3)"}>
+    <h2 class="section-title"><span>Publications</span></h2>
+
+   <!--  <div class="thumbnails recentworks">
+        {{ range $index, $area := .Site.Data.recentworks }}
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <a class="thumbnail" href="{{ .url }}">
+                    <span class="img">
+                        <img src="{{ .image }}" alt="">
+                        <span class="cover"><span class="more">See details &rarr;</span></span>
+                    </span>
+                    <span class="title">{{ .name }}</span>
+                </a>
+                <span class="details">
+                    {{ $len := sub (len .items) 1 }}
+                    {{ range $i, $item := where .items "id" .index }}
+                        <a href="{{ .url }}">{{ .name }}</a>
+                        {{ if gt $len $i }} | {{ end }}
+                    {{ end }}
+                </span>
+            </div>
+        {{ end }}
+    </div> -->
+
+    <div class="thumbnails recentworks">
+        {{ range $index, $area := .Site.Data.recentworks }}
+            <div class="recentworks_item">
+                <div >
+                    <img  src="{{ .image }}" class="item_img" alt="Girl in a jacket">
+                </div>
+                <div  class="item_txt">
+                    <div style="font-size: 25px; font-weight: bold; padding-bottom: 3px">{{ .title }}</div> 
+                    <div style="font-size: 18px;  padding-bottom: 3px; color: brown">{{ .authors }}</div>
+                    <div style="font-size: 18px;  padding-bottom: 5px; color:#228B22;">
+                        {{ .status }}
+                        <span style="float: right; padding-right: 30px">
+                        {{ range $i, $item := .items}}
+                               <a href="{{ .url }}" class='item_urls'>{{ .name }}</a>
+                        {{ end }}
+                        </span>
+                    </div>
+                    <div style="font-size: 17px;">{{ .abstract }}</div>
+                </div>
+            </div>
+        {{ end }}
+        <h5 style="font-family: Helvetica, Arial, sans-serif; margin-top: 20px; position: relative; float: right">
+            * denotes equal contribution
+        </h5>
+    </div>
+
+</div> <!-- /section -->

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "date": "29/06/2019",
+        "text": "Present our work on Recurrent Graph Neural Network at RAAI 2019, Bucharest, Romania",
+        "url": "pdfs/raai.pptx"
+        
+    },
+    {
+        "id": 1,
+        "date": "18/03/2019",
+        "text": "Held presentation on Recent approaches on Graph Neural Networks at Bucharest Deep Learning Group",
+        "url": "pdfs/GNNs.pptx"
+    },
+    {
+        "id": 1,
+        "date": "18/03/2019",
+        "text": "Present Captioning approches at Bucharest Deep Learning Group",
+        "url": "pdfs/captioning.pdf"
+        
+    }
+]

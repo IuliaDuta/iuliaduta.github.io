@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+		<div class="row topspace">
+			<div>
+
+                {{ range .Paginator.Pages }}
+				<article class="post">
+					<div class="entry-content">
+						{{ .Content }}
+					</div>
+				</article>
+                {{ end }}
+
+			</div>
+		</div>
+
+		<center class="">
+			<ul class="pagination">
+                {{ template "_internal/pagination.html" . }}
+			</ul>
+		</center>
+
+
+	</div>	<!-- /container -->
+
+</main>
+
+{{ partial "footer.html" . }}

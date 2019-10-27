@@ -1,0 +1,131 @@
+baseurl = "/"
+
+languageCode = "en-us"
+title = "Iulia Duta - Personal webpage"
+theme = "hugo-initio-master"
+publishDir = "docs"
+
+[params]
+    name = "Iulia Duta"
+    description = "Machine Learning Research Department · Bitdefender, Romania"
+    email = "iduta@bitdefender.com"
+    avatar = "/images/pp.jpg"
+    background = ""
+    favicon = "images/pp.jpg"
+    DateForm = "January 2, 2006"
+
+    mathjax = true
+
+    showSubheader = true
+    showServices = false
+    showRecentWorks = true
+    showDownload = false
+    showClients = false
+    showPresentations = true
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = false
+    footerEnableFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "publications"
+    url = "/#publications"
+    weight = 2
+
+[[menu.main]]
+    name = "talks"
+    url = "/#talks"
+    weight = 3
+
+[[menu.main]]
+    name = "cv"
+    url = "/CV/"
+    weight = 4
+
+[[menu.main]]
+    name = "contact"
+    url = "/#footer"
+    weight = 5
+
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/iulia.duta.39"
+    icon = "fa fa-facebook-square"
+    footer = false
+    sharethis = false
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/DutaIulia"
+    icon = "fa-twitter"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/nickname"
+    icon = "fa-instagram"
+    footer = false
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+nickname"
+    icon = "fa-google-plus-square"
+    footer = false
+    sharethis = true
+    network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/dutaiulia/?originalSubdomain=ro"
+    icon = "fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "tumblr"
+	url = "https://nickname.tumblr.com"
+    icon = "fa-tumblr-square"
+    footer = false
+    sharethis = false
+    network = "tumblr"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/IuliaDuta"
+    icon = "fa-github"
+    footer = true
+    sharethis = true
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:iuliaduta94@gmail.com"
+    icon = "fa-envelope"
+    footer = true
+    sharethis = true
+    network = "email"
+[[params.social]]
+    title = "bitdefender"
+    isimage = true
+    url = "https://bit-ml.github.io/"
+    icon = "/images/bit-logo.png"
+    footer = true
+    sharethis = true
+    network = "email"
+    

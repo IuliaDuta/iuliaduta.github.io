@@ -1,0 +1,13 @@
+<div class="row section recentworks" id="talks">
+
+    <hr style="border : 1px solid rgba(160,160,160,0.3)"}>
+    <h2 class="section-title"><span>Talks</span></h2>
+
+    <div class="thumbnails_presentation">
+        <ul>
+        {{ range $index, $area := .Site.Data.presentations }}
+            <li> <i style="color:brown">{{.date}}</i>: {{.text}}  <a href="{{ .url }}" class='item_urls'> slides </a></li>
+        {{ end }}
+    </div>
+
+</div> <!-- /section -->
