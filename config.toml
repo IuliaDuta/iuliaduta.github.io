@@ -3,7 +3,7 @@ baseurl = "https://iuliaduta.github.io/"
 languageCode = "en-us"
 title = "Iulia Duta - Personal webpage"
 theme = "hugo-initio-master"
-publishDir = "docs"
+publishDir = "iuliaduta.github.io"
 
 [params]
     name = "Iulia Duta"
