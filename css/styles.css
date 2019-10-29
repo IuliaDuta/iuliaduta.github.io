@@ -234,7 +234,6 @@ a:hover {
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
-  filter: grayscale(0%);
 }
 
 #head .title {
@@ -397,7 +396,7 @@ img {
   font-family: "Helvetica Neue";
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .item_column {
     width: 100%;
   }
