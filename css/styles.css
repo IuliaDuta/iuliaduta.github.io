@@ -234,7 +234,6 @@ a:hover {
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
-  filter: grayscale(50%);
 }
 
 #head .title {
@@ -391,11 +390,18 @@ img {
   margin-right: auto;
 }
 
-.item_txt{
+.item_column{
   float: left;
-  width: 55%;
+  width: 50%;
   font-family: "Helvetica Neue";
 }
+
+@media screen and (max-width: 768px) {
+  .item_column {
+    width: 100%;
+  }
+} 
+
 .item_urls{
   /*float: left;*/
   padding-right: 10px;
@@ -794,7 +800,7 @@ footer.entry-meta .meta-in {
 **********************************************************************/
 #footer {
   background: #232323;
-  padding: 20px 0 0 0;
+  padding: 0px 0 0 0;
   font-size: 17px;
   color: #999;
 }
