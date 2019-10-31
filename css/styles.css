@@ -221,9 +221,10 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(../images/skyline.jpg) top center;
-  background-size: 90%;
-  color: #7C7C7C;
+  background: #f4f4f4 url(../images/skyline.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
   padding: 30px 0 35px 0;
 }
 
