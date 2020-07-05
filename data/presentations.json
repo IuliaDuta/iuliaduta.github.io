@@ -1,19 +1,40 @@
 [
     {
         "id": 0,
+        "date": "01-09/07/2020",
+        "text": "Help as Teaching Assistent at Virtual EEML 2020 Summer School",
+        "url": "https://www.eeml.eu/home"
+        
+    },
+    {
+        "id": 1,
+        "date": "06/2020",
+        "text": "Receive best reviewer award at GRL+ Workshop at ICML 2020",
+        "url": "https://grlplus.github.io/"
+        
+    },
+    {
+        "id": 2,
+        "date": "01-09/07/2020",
+        "text": "Teaching Assistent for the tutorial at EEML 2019 Summer School",
+        "url": "https://www.eeml.eu/previous-editions/eeml19"
+        
+    },
+    {
+        "id": 3,
         "date": "29/06/2019",
         "text": "Present our work on Recurrent Graph Neural Network at RAAI 2019, Bucharest, Romania",
         "url": "pdfs/raai.pptx"
         
     },
     {
-        "id": 1,
+        "id": 4,
         "date": "18/03/2019",
         "text": "Held presentation on Recent approaches on Graph Neural Networks at Bucharest Deep Learning Group",
         "url": "pdfs/GNNs.pptx"
     },
     {
-        "id": 1,
+        "id": 5,
         "date": "18/03/2019",
         "text": "Present Captioning approches at Bucharest Deep Learning Group",
         "url": "pdfs/captioning.pdf"
