@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cvs on Iulia Duta - Personal webpage</title>
-    <link>/cv/</link>
+    <link>http://localhost:1313/cv/</link>
     <description>Recent content in Cvs on Iulia Duta - Personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/cv/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/content/cv/cv/</link>
+      <link>http://localhost:1313/content/cv/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/content/cv/cv/</guid>
+      <guid>http://localhost:1313/content/cv/cv/</guid>
       <description>&lt;div class=&#34;cv&#34;&gt;
     &lt;iframe src=&#34;CV.pdf&#34; height=&#34;1200&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
