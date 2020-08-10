@@ -380,6 +380,58 @@ img {
   font-family: "Helvetica Neue";
 }
 
+
+.gray_container_teaching{
+  overflow: auto;
+  margin: 0 0 0 0;
+  padding: 25px;
+  background: rgba(192,192,192, 0.2);
+}
+
+.course_item{
+  float: left;
+  width: 30%;
+  font-family: "Helvetica Neue";
+  background: white;
+  padding: 0px;
+  margin: 15px;
+  height: 250px;
+  border: 2px solid rgba(192,192,192, 0.2);
+  border-style: inset;
+  box-shadow: 0 0 1px 2px rgba(220,220,220, 0.2);
+}
+
+.title_course_item{
+  background: rgba(230,230,230, 0.2);
+  padding: 10px;
+  margin: 0px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  font-size: 20px;
+}
+
+.content_course_item{
+  color: rgba(120, 120, 120, 1.0);
+  font-size: 18px;
+  padding: 10px;
+  margin: 0px;
+  text-align: justify;
+}
+
+
+.teaching_arrow {
+  display: inline-block;
+  line-height: 2em;
+  text-align: center;
+  background: rgba(120, 120, 120,0.2);
+  transform: rotate(90deg);
+  color: white;
+  font-size: 1em;
+  width: 2em;
+  transition: margin 200ms;
+  margin-left: .75em;
+  float: right;
+}
+
 /* Section - Recent works */
 .item_img {
   padding: 0 80px 0 0;
