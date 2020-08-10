@@ -404,6 +404,7 @@ img {
 @media only screen and (max-width: 1300px) {
   .course_item {
     width: 90%;
+    height: 300px;
   }
 } 
 
