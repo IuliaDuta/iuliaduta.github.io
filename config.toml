@@ -9,9 +9,9 @@ publishDir = "iuliaduta.github.io"
     name = "Iulia Duta"
     description = "Machine Learning Research Department · Bitdefender, Romania"
     email = "iduta@bitdefender.com"
-    avatar = "/images/pp4.jpg"
+    avatar = "images/pp4.jpg"
     background = ""
-    favicon = "/images/pp4.jpg"
+    favicon = "images/pp4.jpg"
     DateForm = "January 2, 2006"
 
     mathjax = true
@@ -44,14 +44,19 @@ publishDir = "iuliaduta.github.io"
     weight = 3
 
 [[menu.main]]
+    name = "teaching"
+    url = "/#teaching"
+    weight = 4
+
+[[menu.main]]
     name = "cv"
     url = "/CV/"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     name = "contact"
     url = "/#footer"
-    weight = 5
+    weight = 6
 
 
 [params.disqus]
