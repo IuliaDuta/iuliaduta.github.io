@@ -389,6 +389,7 @@ img {
 }
 
 .course_item{
+  position: relative;
   float: left;
   width: 30%;
   font-family: "Helvetica Neue";
@@ -404,7 +405,7 @@ img {
 @media only screen and (max-width: 1300px) {
   .course_item {
     width: 90%;
-    height: 370px;
+    height: 300px;
   }
 } 
 
@@ -417,6 +418,7 @@ img {
 }
 
 .content_course_item{
+  clear: both;
   color: rgba(120, 120, 120, 1.0);
   font-size: 18px;
   padding: 10px;
@@ -437,6 +439,9 @@ img {
   transition: margin 200ms;
   margin-left: .75em;
   float: right;
+  position: absolute;
+  right:    0px;
+  bottom:   0px;
 }
 
 /* Section - Recent works */
@@ -467,6 +472,15 @@ img {
   padding-left: 10px;
   font-size: 18px;
 }
+
+.item_urls_teaching{
+  float: left;
+  padding-right: 10px;
+  padding-left: 0px;
+  font-size: 13px;
+  height: 30px;
+}
+
 .recentworks_item {
   overflow: auto;
   margin: 35px 0 0 0;
