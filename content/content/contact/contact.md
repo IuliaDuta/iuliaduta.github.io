@@ -2,4 +2,4 @@
 index = 0
 +++
 
-{{< contact > }}
+{{<contact>}}
