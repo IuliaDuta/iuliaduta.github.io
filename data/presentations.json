@@ -1,43 +1,55 @@
 [
+
     {
         "id": 0,
-        "date": "01-09/07/2020",
-        "text": "Help as Teaching Assistent at Virtual EEML 2020 Summer School",
-        "url": "https://www.eeml.eu/home"
+        "date": "06/2025",
+        "text": "Invited speaker at NetSCI HONAI Satellite, talking about our recent work  SPHINX: Structural Prediction using Hypergraph Inference Network",
+        "url": ""
         
     },
+
     {
         "id": 1,
-        "date": "06/2020",
-        "text": "Receive best reviewer award at GRL+ Workshop at ICML 2020",
-        "url": "https://grlplus.github.io/"
+        "date": "03/2025",
+        "text": "Present a lecture on Hypergraph Representation Learning as part of the L65 Graph Representation Learning Course at University of Cambridge",
+        "url": ""
         
     },
+
     {
         "id": 2,
-        "date": "01-09/07/2020",
-        "text": "Teaching Assistent for the tutorial at EEML 2019 Summer School",
-        "url": "https://www.eeml.eu/previous-editions/eeml19"
+        "date": "07/2024",
+        "text": "Present a tutorial on Graph Neural Networks as part of the Eastern European Machine Learning Summer School 2024, Novi Sad",
+        "url": "https://github.com/eemlcommunity/PracticalSessions2024/tree/main/4_geometric_deep_learning"
         
     },
     {
         "id": 3,
-        "date": "29/06/2019",
-        "text": "Present our work on Recurrent Graph Neural Network at RAAI 2019, Bucharest, Romania",
-        "url": "pdfs/raai.pptx"
+        "date": "09/2023",
+        "text": "Give a lecture on Graph Neural Networks at the Mediterranean Machine Learning Summer School 2023, Thessaloniki",
+        "url": "https://www.youtube.com/watch?v=JWVdzK0HPcY&list=PLF-wkqRv4u1Y-Bret-wrcPypPCZ3Gg_3L&index=11&ab_channel=MediterraneanMachineLearning%28M2L%29summerschool"
         
     },
+
     {
         "id": 4,
-        "date": "18/03/2019",
-        "text": "Held presentation on Recent approaches on Graph Neural Networks at Bucharest Deep Learning Group",
-        "url": "pdfs/GNNs.pptx"
+        "date": "12/2022",
+        "text": "Co-organise the first Learning on Graph Conference (LOG 2022).",
+        "url": "https://logconference.org/"
+        
     },
+
     {
         "id": 5,
-        "date": "18/03/2019",
-        "text": "Present Captioning approches at Bucharest Deep Learning Group",
-        "url": "pdfs/captioning.pdf"
-        
+        "date": "07/2022",
+        "text": "Design a practical tutorial on graph neural networks and structural prediction for astern European Machine Learning Summer School 2022",
+        "url": "https://www.youtube.com/watch?v=JWVdzK0HPcY&list=PLF-wkqRv4u1Y-Bret-wrcPypPCZ3Gg_3L&index=11&ab_channel=MediterraneanMachineLearning%28M2L%29summerschool"   
     }
+    
+
+
 ]
+
+
+
+   

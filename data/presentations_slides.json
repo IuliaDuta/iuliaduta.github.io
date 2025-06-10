@@ -1,0 +1,109 @@
+[
+    {
+        "id": 0,
+        "date": " 2025",
+        "title": "Introduction in Hypergraph Neural Networks",
+        "loc": "Cambridge",
+        "items": [
+            {
+                "name": "slides",
+                "url": "https://www.canva.com/design/DAGhhhz4oj4/BgNQgEVKUtt1esjyZ5g6jA/view?utm_content=DAGhhhz4oj4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha1e2157405"
+            }
+        ]
+           
+    },
+    {
+        "id": 1,
+        "date": " 2025",
+        "title": "Discovering latent hypergraph structure",
+        "loc": "NetSCI HONAI Satellite 2025",
+        "items": [
+            {
+                "name": "slides",
+                "url": "https://www.canva.com/design/DAGlcrTf8SM/7oIXeA8nly-d4AiOhdZXSA/view?utm_content=DAGlcrTf8SM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8326ab6a93"
+            }
+        ]
+           
+    },
+    {
+        "id": 2,
+        "date": " 2023",
+        "title": "Introduction to Graph Neural Networks",
+        "loc": "M2L",
+        "items": [
+            {
+                "name": "slides",
+                "url": "https://docs.google.com/presentation/d/1NThNM4HIBi0iPyo1UCkL2V4olrLtKSPHuHskmJVCh0w/edit?usp=sharing"
+            },
+            {
+                "name": "video",
+                "url": "https://www.youtube.com/watch?v=JWVdzK0HPcY&ab_channel=MediterraneanMachineLearning%28M2L%29summerschool"
+            }
+            
+        ]
+           
+    },
+    {
+        "id": 3,
+        "date": " 2021",
+        "title": "An introductory lecture on Graph Representation Learning ",
+        "loc": "University of Bucharest",
+        "items": [
+            {
+                "name": "slides - part1",
+                "url": "pdfs/Introduction_to_Graph_Neural_Networks_slides.pdf"
+            },
+            {
+                "name": "video - part1",
+                "url": "https://www.youtube.com/watch?v=_wLePNLzO38&ab_channel=BucharestDeepLearning"
+            },
+            {
+                "name": "slides - part2",
+                "url": "pdfs/Intro to Graph Neural Networks - Part 2.pdf"
+            },
+            {
+                "name": "video - part2",
+                "url": "youtube.com/watch?v=EE6ht2xTOWg&t=2s&ab_channel=BucharestDeepLearning"
+            }
+            
+        ]
+           
+    },
+    {
+        "id": 4,
+        "date": " 2022",
+        "title": "Discovering Dynamic Salient Regions for Spatio-Temporal Graph Neural Networks",
+        "loc": "Meetup BDL",
+        "items": [
+            {
+                "name": "slides",
+                "url": "https://docs.google.com/presentation/d/1tTMzquSzm1QxXCfDk-tjbKdBLEmxwSU5r7XFFZRMqZA/edit?slide=id.ga9936998c3_1_104#slide=id.ga9936998c3_1_104"
+            },
+            {
+                "name": "video",
+                "url": "https://www.youtube.com/watch?v=J0LGE0s-DCk&ab_channel=BucharestDeepLearning"
+            }
+            
+        ]
+           
+    },
+    {
+        "id": 5,
+        "date": " 2019",
+        "title": "An introductory lecture on Graph Representation Learning ",
+        "loc": "University of Bucharest",
+        "items": [
+            {
+                "name": "slides",
+                "url": "https://docs.google.com/presentation/d/15rNBDF2V-kTk9QGB-GzS5D8u0Bv-4WMJ/edit?usp=sharing&ouid=116251298327404939559&rtpof=true&sd=true"
+            },
+            {
+                "name": "blog",
+                "url": "https://bit-ml.github.io/blog/post/recurrent-space-time-graph-neural-nets/"
+            }
+        ]
+           
+    }
+
+        
+]

@@ -1,11 +1,83 @@
 [
     {
         "id": 0,
+        "title": "Wasserstein Hypergraph Neural Network",
+        "image": "images/WHNN.png",
+        "status": "Preprint",
+        "authors": "Iulia Duta, Pietro Liò",
+        "abstract": "We are introducing a model that treats the nodes and hyperedge neighbourhood as distributions and aggregate the information using Sliced Wasserstein Pooling. Unlike conventional aggregators such as mean or sum, which only capture first-order statistics, our approach has the ability to preserve geometric properties like the shape and spread of distributions, improving the higher-order modelling.",
+        "items": [
+            {
+                "name": "pdf",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "SPHINX: Structural Prediction using Hypergraph Inference Network",
+        "image": "images/SPHINX.png",
+        "status": "ICML 2025",
+        "authors": "Iulia Duta, Pietro Liò",
+        "abstract": "We propose a model that takes advantage of implicit, higher-order interactions for scenarios where these interactions are unobserved or not annotated, enable the application of hypergraph networks on a broader range of applications. SPHINX learns to infer a latent hypergraph structure in an unsupervised way, solely from the final node-level signal.",
+        "items": [
+            {
+                "name": "pdf",
+                "url": "pdfs/SPHINX.pdf"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Sheaf Hypergraph Networks",
+        "image": "images/SheafHNN.jpg",
+        "status": "NeurIPS 2023",
+        "authors": "Iulia Duta, Giulia Cassarà, Fabrizio Silvestri, Pietro Liò",
+        "abstract": "We introduce cellular sheaves for hypergraphs, a mathematical construction that adds extra structure to the conventional hypergraph while maintaining their local, higherorder connectivity. This leads to a novel Sheaf Hypergraph Laplacian that can be used in a machine elrning setup to improve the modelling of higher-order interactions.",
+        "items": [
+            {
+                "name": "pdf",
+                "url": "pdfs/SheafHNN.pdf"
+            },
+            {
+                "name": "poster",
+                "url": "images/SheafHNN_poster.png"
+            },
+            {
+                "name": "code",
+                "url": "https://github.com/IuliaDuta/sheaf_hypergraph_networks"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Dynamic Regions Graph Neural Networks for Spatio-Temporal Reasoning",
+        "image": "images/DyReG_model.png",
+        "status": "NeurIPS 2021",
+        "authors": "Iulia Duta*, Andrei Nicolicioiu*, Marius Leordeanu",
+        "abstract": "We investigate how to create node representations useful for modeling visual interaction using Graph Neural Networks. Our DyReG method can discover salient regions in the scene, without explicit object-level supervision, that correlate with true objects locations. Moreover, it improves the relational processing and obtains superior results on video classification tasks, while being more explainable.",
+        "items": [
+            {
+                "name": "pdf",
+                "url": "pdfs/DyReG_pdf.pdf"
+            },
+            {
+                "name": "poster",
+                "url": "pdfs/DyReg_poster.pdf"
+            },
+            {
+                "name": "code",
+                "url": "https://github.com/bit-ml/DyReg-GNN"
+            }
+        ]
+    },
+    {
+        "id": 4,
         "title": "Recurrent Space-time Graph Neural Networks",
         "image": "images/RSTG_model.jpg",
         "status": "NeurIPS 2019",
         "authors": "Andrei Nicolicioiu*, Iulia Duta*, Marius Leordeanu",
-        "abstract": "We propose a neural graph model, recurrent in space and time, suitable for capturing both the local appearance and the complex higher-level interactions of different entities and objects within the changing world scene. ur model is general and could learn to recognize a variety of high level spatio-temporal concepts, obtaining state-of-the-art performance on the challenging Something-Something human-object interaction dataset.",
+        "abstract": "We propose a neural graph model, recurrent in space and time, suitable for capturing both the local appearance and the complex higher-level interactions of different entities and objects within the changing world scene. Our model is general and could learn to recognize a variety of high level spatio-temporal concepts, obtaining state-of-the-art performance on the challenging Something-Something human-object interaction dataset.",
         "items": [
             {
                 "name": "pdf",
@@ -22,7 +94,21 @@
         ]
     },
     {
-        "id": 1,
+        "id": 5,
+        "title": "Effective Receptive Field of Graph Neural Networks",
+        "image": "images/ERF1.png",
+        "status": "Technical Report",
+        "authors": "Andrei Nicolicioiu*, Iulia Duta*",
+        "abstract": "We analysed theoretically and empirically the effective receptive field for Graph Convolutional Network and Self-Attention layer.",
+        "items": [
+            {
+                "name": "pdf",
+                "url": "pdfs/erf.pdf"
+            }
+        ]
+    },
+    {
+        "id": 6,
         "title": "Mining for meaning: from vision to language through multiple networks consensus",
         "image": "images/caption_girl_texting2.gif",
         "status": "BMVC 2018",
@@ -39,7 +125,7 @@
             },
 	    {
                 "name": "page",
-                "url": "pdfs/_pdf.pdf"
+                "url": "https://sites.google.com/view/mining-for-meaning/"
             }
         ]
     }

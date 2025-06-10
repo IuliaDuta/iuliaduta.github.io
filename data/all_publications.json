@@ -1,0 +1,91 @@
+[
+    {
+        "id": 0,
+        "title": "Wasserstein Hypergraph Neural Network",
+        "status": "Preprint",
+        "status_long": "",
+        "authors": "I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟, Pietro Liò",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "title": "Sheaves Reloaded: A Directional Awakening",
+        "status": "Preprint",
+        "status_long": "",
+        "authors": "Stefano Fiorini, Hakan Aktas, I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟, Stefano Coniglio, Pietro Morerio, Alessio Del Bue, Pietro Liò",
+        "url": "https://arxiv.org/abs/2506.02842"
+    },
+    {
+        "id": 2,
+        "title": "SPHINX: Structural Prediction using Hypergraph Inference Network",
+        "status": "ICML 25",
+        "status_long": "International Conference on Machine Learning 2025",
+        "authors": "I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟, Pietro Liò",
+        "url": "https://arxiv.org/abs/2410.03208"
+    },
+
+    {
+        "id": 3,
+        "title": "Explaining Hypergraph Neural Networks: From Local Explanations to Global Concepts",
+        "status": "Preprint",
+        "status_long": "",
+        "authors": "Shiye Su, I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟, Lucie Charlotte Magister, Pietro Liò",
+        "url": "https://arxiv.org/abs/2410.07764"
+    },
+    {
+        "id": 4,
+        "title": "Heterogeneous sheaf neural networks",
+        "status": "Preprint",
+        "status_long": "ICML 2024 Workshop, GRaM: Geometry-grounded Representation Learning and Generative Modeling",
+        "authors": "Luke Braithwaite, I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟, Pietro Liò",
+        "url": "https://arxiv.org/abs/2409.08036"
+    },
+    {
+        "id": 5,
+        "title": "Joint Diffusion Processes as an Inductive Bias in Sheaf Neural Networks",
+        "status": "GRaM 24",
+        "status_long": "ICML 2024 Workshop, GRaM: Geometry-grounded Representation Learning and Generative Modeling",
+        "authors": "Ferran Hernandez Caralt, Guillermo Bernárdez Gil, I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟, Pietro Liò, Eduard Alarcón Cot",
+        "url": "https://arxiv.org/abs/2407.20597"
+    },
+    {
+        "id": 6,
+        "title": "Sheaf Hypergraph Networks",
+        "status": "NeurIPS 23",
+        "status_long": "Annual Conference on Neural Information Processing Systems  2023",
+        "authors": "I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟, Giulia Cassarà, Fabrizio Silvestri, Pietro Liò",
+        "url": "https://arxiv.org/abs/2309.17116"
+    },
+    {
+        "id": 7,
+        "title": "Dynamic Regions Graph Neural Networks for Spatio-Temporal Reasoning",
+        "status": "NeurIPS 21",
+        "status_long": "Annual Conference on Neural Information Processing Systems 2021",
+        "authors": "I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟*, Andrei Nicolicioiu*, Marius Leordeanu",
+        "url": "https://arxiv.org/abs/2009.08427"
+    },
+    {
+        "id": 8,
+        "title": "Recurrent Space-time Graph Neural Networks",
+        "status": "NeurIPS 19",
+        "status_long": "Annual Conference on Neural Information Processing Systems 2019",
+        "authors": "Andrei Nicolicioiu*, I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟*, Marius Leordeanu",
+        "url": "https://arxiv.org/abs/1904.05582"
+    },
+    {
+        "id": 9,
+        "title": "Effective Receptive Field of Graph Neural Networks",
+        "status": "Preprint",
+        "status_long": "",
+        "authors": "Andrei Nicolicioiu*, I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟*",
+        "url": ""
+    },
+    {
+        "id": 10,
+        "title": "Mining for meaning: from vision to language through multiple networks consensus",
+        "status": "BMVC 2018",
+        "status_long": "The British Machine Vision Conference 2018",
+        "authors": "I͟u͟l͟i͟a͟ ͟D͟u͟t͟a͟*, Andrei Nicolicioiu*, Vlad Bogolin, Marius Leordeanu",
+        "url": "https://arxiv.org/abs/1806.01954"
+    }
+]
