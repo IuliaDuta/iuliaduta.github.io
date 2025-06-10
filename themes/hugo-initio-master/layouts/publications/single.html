@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+
+<div class="row section recentworks" id="teaching">
+    <hr style="border : 1px solid rgba(160,160,160,0.3)"}>
+    <h2 class="section-title"><span>Publications</span></h2>
+
+    <div class="thumbnails_presentation">
+       <!--  <ul>
+        {{ range $index, $area := .Site.Data.teaching }}
+            <li> <i style="color:brown">{{.date}}</i>: {{.text}} </li>
+        {{ end }} -->
+        <div class="gray_container_teaching">
+        	{{ range $index, $area := .Site.Data.all_publications}}
+        	<!-- <div class="slides_item"> -->
+        		<div class="publications_status">
+      				{{.status}}
+                </div>
+                <div class="publications_item">
+                        <a href={{.url}}><b>{{.title}}</b></a>
+                        <br>
+                        <span style="color:gray">{{.authors}} </span>
+                        <br>
+                        <i style="color:gray">{{.status_long}}</i>
+
+        		</div>
+
+                <br>
+            <!-- <a href="{{ .notes }}" class="teaching_arrow">❯</a> -->
+        	<!-- </div> -->
+        	{{ end }}
+        </div>
+    </div>
+
+</div> <!-- /section -->
+{{ partial "footer.html" . }}

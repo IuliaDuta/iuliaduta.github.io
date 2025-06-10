@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+
+<div class="row section recentworks" id="teaching">
+    <hr style="border : 1px solid rgba(160,160,160,0.3)"}>
+    <h2 class="section-title"><span>Slides and Presentations</span></h2>
+
+    <div class="thumbnails_presentation">
+       <!--  <ul>
+        {{ range $index, $area := .Site.Data.teaching }}
+            <li> <i style="color:brown">{{.date}}</i>: {{.text}} </li>
+        {{ end }} -->
+        <div class="gray_container_teaching">
+        	{{ range $index, $area := .Site.Data.presentations_slides }}
+        	<!-- <div class="slides_item"> -->
+        		<div class="title_slides_item">
+      				{{.title}}
+      				<!-- <br>  -->
+                    <span style="color:brown; font-size: 20px; text-align: left"> &nbsp;  {{.loc}} </span>
+                    <span style="color:brown; font-size: 20px;"> {{.date}} &nbsp;  &nbsp;  &nbsp; </span> 
+                    <!-- <br>
+                            <i style="color:green; font-size: 18px;">{{.job}} </i>
+                    
+                        </div>
+                        <div class="content_course_item">
+                            {{.text}} 
+                    <br> -->
+                    <!-- <p></p>  -->
+                    <span style="float: right; padding-right: 10px; clear: both;">
+                        <!-- <br> -->
+                        {{ range $i, $item := .items}}
+                            <a href="{{ .url }}" class='item_urls_slides'>{{ .name }} &nbsp; </a>
+                    
+                        {{ end }}
+                    </span>
+        		</div>
+            <!-- <a href="{{ .notes }}" class="teaching_arrow">❯</a> -->
+        	<!-- </div> -->
+        	{{ end }}
+        </div>
+    </div>
+
+</div> <!-- /section -->
+{{ partial "footer.html" . }}
