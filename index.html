@@ -133,7 +133,11 @@ MathJax.Hub.Config({
                 </li>
                 
                 <li>
-                    <a href="/#publications">publications</a>
+                    <a href="/publications">publications</a>
+                </li>
+                
+                <li>
+                    <a href="/presentations">presentations</a>
                 </li>
                 
                 <li>
@@ -171,14 +175,14 @@ MathJax.Hub.Config({
             <div class="row section topspace">
     <div class="col-md-12">
         <p class="lead">
-            I'm a 1st-year PhD student supervised by <a href="https://www.cl.cam.ac.uk/~pl219/">Prof. Pietro Liò</a> and <a href="https://www.inference.vc/about/">Dr. Ferenc Huszár</a> at the University of Cambridge, Department of Computer Science and Technology, funded by a <a href="https://www.cst.cam.ac.uk/news/twitter-fund-four-scholarships-machine-learning"> scholarship from Twitter</a>. 
+            I'm a 4th-year PhD student supervised by <a href="https://www.cl.cam.ac.uk/~pl219/">Prof. Pietro Liò</a> and <a href="https://www.inference.vc/about/">Dr. Ferenc Huszár</a> at the University of Cambridge, Department of Computer Science and Technology, funded by a <a href="https://www.cst.cam.ac.uk/news/twitter-fund-four-scholarships-machine-learning"> scholarship from Twitter</a>. 
             <br>
             <br>
             Previously, I spent 5 great years as a Machine Learning Researcher at <a href="https://bit-ml.github.io/">Bitdefender</a>. I've graduated with valedictorian distinction the BSc in Computer Science from the University of Bucharest in 2016 and the MSc in Artificial Intelligence also from the University of Bucharest in 2018. 
            </p>
            <p class="lead">
-           <b> My research focuses on Graph Neural Networks. </b>
-           I am particularly interested in developing techniques to extract structured representation from data  and to analyse the optimisation process of different graph and hypergraph neural networks.
+           <b> My research focuses on Hypergraph Neural Networks. </b>
+           I am particularly interested in developing techniques to better model implicit and explicit higher-order interactions. Additionally, I am interested in exploring the advantages of sheaf theory in machine learning.
        
 
 
@@ -194,11 +198,72 @@ MathJax.Hub.Config({
             <div class="row section recentworks topspace" id="publications">
 
     <hr style="border : 1px solid rgba(160,160,160,0.3)"}>
-    <h2 class="section-title"><span>Publications</span></h2>
+    <h2 class="section-title"><span>Selected Publications</span></h2>
 
    
 
     <div class="thumbnails recentworks">
+        
+            <div class="recentworks_item">
+                <div class = "item_column">
+                    <img  src="images/WHNN.png" class="item_img" alt="Girl in a jacket">
+                </div>
+                <div  class="item_column">
+                    <div style="font-size: 25px; font-weight: bold; padding-bottom: 3px">Wasserstein Hypergraph Neural Network</div> 
+                    <div style="font-size: 18px;  padding-bottom: 3px; color: brown">Iulia Duta, Pietro Liò</div>
+                    <div style="font-size: 18px;  padding-bottom: 5px; color:#228B22;">
+                        Preprint
+                        <span style="float: right; padding-right: 30px">
+                        
+                               <a href="" class='item_urls'>pdf</a>
+                        
+                        </span>
+                    </div>
+                    <div style="font-size: 17px;">We are introducing a model that treats the nodes and hyperedge neighbourhood as distributions and aggregate the information using Sliced Wasserstein Pooling. Unlike conventional aggregators such as mean or sum, which only capture first-order statistics, our approach has the ability to preserve geometric properties like the shape and spread of distributions, improving the higher-order modelling.</div>
+                </div>
+            </div>
+        
+            <div class="recentworks_item">
+                <div class = "item_column">
+                    <img  src="images/SPHINX.png" class="item_img" alt="Girl in a jacket">
+                </div>
+                <div  class="item_column">
+                    <div style="font-size: 25px; font-weight: bold; padding-bottom: 3px">SPHINX: Structural Prediction using Hypergraph Inference Network</div> 
+                    <div style="font-size: 18px;  padding-bottom: 3px; color: brown">Iulia Duta, Pietro Liò</div>
+                    <div style="font-size: 18px;  padding-bottom: 5px; color:#228B22;">
+                        ICML 2025
+                        <span style="float: right; padding-right: 30px">
+                        
+                               <a href="pdfs/SPHINX.pdf" class='item_urls'>pdf</a>
+                        
+                        </span>
+                    </div>
+                    <div style="font-size: 17px;">We propose a model that takes advantage of implicit, higher-order interactions for scenarios where these interactions are unobserved or not annotated, enable the application of hypergraph networks on a broader range of applications. SPHINX learns to infer a latent hypergraph structure in an unsupervised way, solely from the final node-level signal.</div>
+                </div>
+            </div>
+        
+            <div class="recentworks_item">
+                <div class = "item_column">
+                    <img  src="images/SheafHNN.jpg" class="item_img" alt="Girl in a jacket">
+                </div>
+                <div  class="item_column">
+                    <div style="font-size: 25px; font-weight: bold; padding-bottom: 3px">Sheaf Hypergraph Networks</div> 
+                    <div style="font-size: 18px;  padding-bottom: 3px; color: brown">Iulia Duta, Giulia Cassarà, Fabrizio Silvestri, Pietro Liò</div>
+                    <div style="font-size: 18px;  padding-bottom: 5px; color:#228B22;">
+                        NeurIPS 2023
+                        <span style="float: right; padding-right: 30px">
+                        
+                               <a href="pdfs/SheafHNN.pdf" class='item_urls'>pdf</a>
+                        
+                               <a href="images/SheafHNN_poster.png" class='item_urls'>poster</a>
+                        
+                               <a href="https://github.com/IuliaDuta/sheaf_hypergraph_networks" class='item_urls'>code</a>
+                        
+                        </span>
+                    </div>
+                    <div style="font-size: 17px;">We introduce cellular sheaves for hypergraphs, a mathematical construction that adds extra structure to the conventional hypergraph while maintaining their local, higherorder connectivity. This leads to a novel Sheaf Hypergraph Laplacian that can be used in a machine elrning setup to improve the modelling of higher-order interactions.</div>
+                </div>
+            </div>
         
             <div class="recentworks_item">
                 <div class = "item_column">
@@ -306,27 +371,17 @@ MathJax.Hub.Config({
     <div class="thumbnails_presentation">
         <ul>
         
-            <li> <i style="color:brown">12/2021</i>: Held a presentation about our paper Discovering Dynamic Salient Regions with Spatio-Temporal Graph Neural Networks at Bucharest Deep Learning Group  <a href="https://www.youtube.com/watch?v=J0LGE0s-DCk&amp;t=1445s&amp;ab_channel=BucharestDeepLearning" class='item_urls'> link </a></li>
+            <li> <i style="color:brown">06/2025</i>: Invited speaker at NetSCI HONAI Satellite, talking about our recent work  SPHINX: Structural Prediction using Hypergraph Inference Network  <a href="" class='item_urls'> link </a></li>
         
-            <li> <i style="color:brown">10/2021</i>: Our work on Discovering Dynamic Salient Regions with Spatio-Temporal Graph Neural Networks  just got accepted to NeurIPS 2021!  <a href="" class='item_urls'> link </a></li>
+            <li> <i style="color:brown">03/2025</i>: Present a lecture on Hypergraph Representation Learning as part of the L65 Graph Representation Learning Course at University of Cambridge  <a href="" class='item_urls'> link </a></li>
         
-            <li> <i style="color:brown">07/2021</i>: Held a presentation about Graph Neural Networks with a focus on Computer Vision applications at the Human Pose Recovery and Behavior Analysis Group, University of Barcelona  <a href="pdfs/GNN_Course_Barcelona.pdf" class='item_urls'> link </a></li>
+            <li> <i style="color:brown">07/2024</i>: Present a tutorial on Graph Neural Networks as part of the Eastern European Machine Learning Summer School 2024, Novi Sad  <a href="https://github.com/eemlcommunity/PracticalSessions2024/tree/main/4_geometric_deep_learning" class='item_urls'> link </a></li>
         
-            <li> <i style="color:brown">07/2021</i>: Held an introductory presentation about Graph Nets at Timisoara/Strasbourg Meetup  <a href="pdfs/DeepFMI2021____Graph_Networks_Course.pdf" class='item_urls'> link </a></li>
+            <li> <i style="color:brown">09/2023</i>: Give a lecture on Graph Neural Networks at the Mediterranean Machine Learning Summer School 2023, Thessaloniki  <a href="https://www.youtube.com/watch?v=JWVdzK0HPcY&amp;list=PLF-wkqRv4u1Y-Bret-wrcPypPCZ3Gg_3L&amp;index=11&amp;ab_channel=MediterraneanMachineLearning%28M2L%29summerschool" class='item_urls'> link </a></li>
         
-            <li> <i style="color:brown">01-09/07/2020</i>: Help as Teaching Assistent at Virtual EEML 2020 Summer School  <a href="https://www.eeml.eu/home" class='item_urls'> link </a></li>
+            <li> <i style="color:brown">12/2022</i>: Co-organise the first Learning on Graph Conference (LOG 2022).  <a href="https://logconference.org/" class='item_urls'> link </a></li>
         
-            <li> <i style="color:brown">01/2020</i>: Present Graph Neural Networks for video processing at Bitdefender TechDays  <a href="pdfs/GNN-techDays.pptx" class='item_urls'> link </a></li>
-        
-            <li> <i style="color:brown">06/2020</i>: Receive best reviewer award at GRL&#43; Workshop - ICML 2020  <a href="https://grlplus.github.io/" class='item_urls'> link </a></li>
-        
-            <li> <i style="color:brown">01-09/07/2020</i>: Teaching Assistent for the tutorial at EEML 2019 Summer School  <a href="https://www.eeml.eu/previous-editions/eeml19" class='item_urls'> link </a></li>
-        
-            <li> <i style="color:brown">29/06/2019</i>: Present our work on Recurrent Graph Neural Network at RAAI 2019, Bucharest, Romania  <a href="pdfs/raai.pptx" class='item_urls'> link </a></li>
-        
-            <li> <i style="color:brown">18/03/2019</i>: Held presentation on Recent approaches on GNNs at Bucharest Deep Learning Group  <a href="pdfs/GNNs.pptx" class='item_urls'> link </a></li>
-        
-            <li> <i style="color:brown">18/03/2019</i>: Present Captioning approches at Bucharest Deep Learning Group  <a href="pdfs/captioning.pdf" class='item_urls'> link </a></li>
+            <li> <i style="color:brown">07/2022</i>: Design a practical tutorial on graph neural networks and structural prediction for astern European Machine Learning Summer School 2022  <a href="https://www.youtube.com/watch?v=JWVdzK0HPcY&amp;list=PLF-wkqRv4u1Y-Bret-wrcPypPCZ3Gg_3L&amp;index=11&amp;ab_channel=MediterraneanMachineLearning%28M2L%29summerschool" class='item_urls'> link </a></li>
         
     </div>
 
@@ -352,9 +407,9 @@ MathJax.Hub.Config({
       				Representation Learning on Graphs and Networks
       				<br>
               <span style="color:brown; font-size: 18px; text-align: left"> University of Cambridge </span>
-              <span style="color:brown; font-size: 18px; float:right">  2022 </span>
+              <span style="color:brown; font-size: 18px; float:right">  2022-2025 </span>
               <br>
-      				<i style="color:green; font-size: 18px;">Teaching Assistent </i>
+      				<i style="color:green; font-size: 18px;">Teaching Assistant </i>
              
       			</div>
       			<div class="content_course_item">
@@ -446,11 +501,11 @@ MathJax.Hub.Config({
               <span style="color:brown; font-size: 18px; text-align: left"> University of Bucharest </span>
               <span style="color:brown; font-size: 18px; float:right"> 2017-2019 </span>
               <br>
-      				<i style="color:green; font-size: 18px;">Teaching Assistent </i>
+      				<i style="color:green; font-size: 18px;">Teaching Assistant </i>
              
       			</div>
       			<div class="content_course_item">
-        			As a teaching assistent, I prepared and presented the laboratories and seminars and helped with the final exam. (1st-year Undergraduate) 
+        			As a teaching assistant, I prepared and presented the laboratories and seminars and helped with the final exam. (1st-year Undergraduate) 
               <br>
               <p></p> 
               <span style="float: left; padding-right: 10px; clear: both;">
