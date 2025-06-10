@@ -7,8 +7,8 @@ publishDir = "iuliaduta.github.io"
 
 [params]
     name = "Iulia Duta"
-    description = "Machine Learning Research Department · Bitdefender, Romania"
-    email = "iduta@bitdefender.com"
+    description = "PhD student @ University of Cambridge"
+    email = "id366@cam.ac.uk"
     avatar = "images/pp4.jpg"
     background = ""
     favicon = "images/pp4.jpg"
@@ -35,28 +35,33 @@ publishDir = "iuliaduta.github.io"
 
 [[menu.main]]
     name = "publications"
-    url = "/#publications"
+    url = "/publications"
     weight = 2
+
+[[menu.main]]
+    name = "presentations"
+    url = "/presentations"
+    weight = 3
 
 [[menu.main]]
     name = "news"
     url = "/#talks"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "teaching"
     url = "/#teaching"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     name = "cv"
     url = "/CV/"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     name = "contact"
     url = "/#footer"
-    weight = 6
+    weight = 7
 
 
 [params.disqus]
@@ -80,57 +85,57 @@ publishDir = "iuliaduta.github.io"
     network = "email"
 
 [[params.social]]
-    title = "facebook"
-    url = "https://www.facebook.com/iulia.duta.39"
+	title = "facebook"
+	url = "https://www.facebook.com/iulia.duta.39"
     icon = "fa fa-facebook-square"
     footer = false
     sharethis = false
     network = "facebook"
 [[params.social]]
-    title = "twitter"
-    url = "https://twitter.com/DutaIulia"
+	title = "twitter"
+	url = "https://twitter.com/DutaIulia"
     icon = "fa-twitter"
     footer = true
     sharethis = true
     network = "twitter"
 [[params.social]]
-    title = "instagram"
-    url = "https://www.instagram.com/nickname"
+	title = "instagram"
+	url = "https://www.instagram.com/nickname"
     icon = "fa-instagram"
     footer = false
     sharethis = false
     network = ""
 [[params.social]]
-    title = "google+"
-    url = "https://plus.google.com/+nickname"
+	title = "google+"
+	url = "https://plus.google.com/+nickname"
     icon = "fa-google-plus-square"
     footer = false
     sharethis = true
     network = "googleplus"
 [[params.social]]
-    title = "linkedin"
-    url = "https://www.linkedin.com/in/dutaiulia/?originalSubdomain=ro"
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/dutaiulia/?originalSubdomain=ro"
     icon = "fa-linkedin"
     footer = true
     sharethis = true
     network = "linkedin"
 [[params.social]]
-    title = "tumblr"
-    url = "https://nickname.tumblr.com"
+	title = "tumblr"
+	url = "https://nickname.tumblr.com"
     icon = "fa-tumblr-square"
     footer = false
     sharethis = false
     network = "tumblr"
 [[params.social]]
-    title = "github"
-    url = "https://github.com/IuliaDuta"
+	title = "github"
+	url = "https://github.com/IuliaDuta"
     icon = "fa-github"
     footer = true
     sharethis = true
     network = ""
 [[params.social]]
-    title = "email"
-    url = "mailto:iuliaduta94@gmail.com"
+	title = "email"
+	url = "mailto:iuliaduta94@gmail.com"
     icon = "fa-envelope"
     footer = true
     sharethis = true
