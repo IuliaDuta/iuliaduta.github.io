@@ -1,5 +1,5 @@
 ---
-title: "Presentations"
+title: "Publications"
 layout: "publications"
 url: "/publications/"
 ---
